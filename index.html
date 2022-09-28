@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>Frontend Mentor | Article preview component</title>
+
+</head>
+
+<body>
+  <div class="circles__container">
+    <div class="circle_container">
+      <div class="circles"></div>
+      <div class="circles"></div>
+    </div>
+    <div class="circle_container">
+      <div class="circles"></div>
+      <div class="circles"></div>
+    </div>
+    <div class="circle_container">
+      <div class="circles"></div>
+      <div class="circles"></div>
+    </div>
+    <div class="circle_container">
+      <div class="circles"></div>
+      <div class="circles"></div>
+    </div>
+    <div class="circle_container">
+      <div class="circles"></div>
+      <div class="circles"></div>
+    </div>
+    <div class="circle_container">
+      <div class="circles"></div>
+      <div class="circles"></div>
+    </div>
+  </div>
+  <main class="container">
+    <div class="article__container">
+      <div class="article_image">
+      </div>
+      <div class="article_details">
+        <div class="article_info">
+          <article class="cover">
+            <h3>
+              Shift the overall look and feel by adding these wonderful touches to furniture in your home
+            </h3>
+            <p>
+              Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting.
+              I've
+              got
+              some simple tips to help you make any room feel complete.
+            </p>
+          </article>
+        </div>
+        <div class="profile">
+          <div class="profile_id">
+            <img src="./images/avatar-michelle.jpg" alt="Profile Photo" id="dp">
+            <div id="id">
+              <h4>
+                Michelle Appleton
+              </h4>
+              <p>
+                28 Jun 2020
+              </p>
+            </div>
+          </div>
+          <div class="share">
+            <span id="links">
+              <div id="link_contnr"> 
+                  <a href="#" id="shareLink">SHARE</a>
+                <div id="share-icons">
+                  <a href="http://www.facebook.com" target="_self"><img src="./images/icon-facebook.svg" alt="#"
+                      title="www.facebook.com"></a>
+                  <a href="http://www.twitter.com" target="_self"><img src="./images/icon-twitter.svg" alt="#"
+                      title="www.twitter.com"></a>
+                  <a href="http://www.pinterest.com" target="_self"><img src="./images/icon-pinterest.svg" alt="#"
+                      title="www.pinterest.com"></a>
+                </div>
+              </div>
+            </span>
+            <a id="share-img" onclick="share()">
+              <img src="./images/icon-share.svg" alt="" title="share options">
+            </a>
+            <a id="share-close" href="#" onclick="off()" title="close">
+              <p>X</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="/app.js"></script>
+</body>
+
+</html>
